@@ -33,12 +33,20 @@ A variable has a name and a type of the value it holds.
 To declare a variable use the type followed by the name of the variable.
 You can assign a value to the declared variable using the = operator.
 A variable can change its value during the program, by being assigned to a new value.
-
+.. we can init variable once time and change the valiue of it.
 string x = "a";
   x = "b";
   cout << x;
   x = "c";
   cout << x;
+  - All variable names must begin with a letter of the alphabet or an underscore( _ ). 
+  - After the initial letter, variable names can contain additional letters, as well as numbers.
+  - Blank spaces or special characters are not allowed in variable names.
+You can declare multiple variables of the same type by separating them with commas.
+You can use the auto keyword to automatically set the type of the variable based on the value it's assigned to.
+Remember, that C++ is case sensitive.
+When naming your variables, remember that they need to start with a letter or underscore and cannot contain special symbols.
+
 
 # DataTypes
   - int is used to hold whole numbers (integers) double stores decimals.
@@ -49,4 +57,9 @@ string x = "a";
 
 
 # Math
+   + is addition
+   - is subtraction
+   / is division 
+     . Dividing integers results in an integer.
+   % finds the remainder of a division.
 
