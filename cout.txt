@@ -1,5 +1,0 @@
-cout                                                    |                   	std::cout
-1.	A “namespace std” must be written into the program	|  “std::cout” must be used, if “namespace std” was not declared previously
-2.	cout is a predefined object of the ostream class    |	“std::cout” calls the Standard Template/Iostream Library, since “cout” is only defined in the “std” namespace
-3.	Declaring the namespace before hand gives
- access to many functions such as cin, cout etc.        | This is just an implicit initialization of the std library performed inside the function, i.e alongwith the main computation 
