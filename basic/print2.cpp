@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-	cout << "GeeksforGeeks";
+	cout << "salam ali";
     // by using namespace we cam remove std for each cout "consol output" 
 	return 0;
 }

@@ -1,4 +1,14 @@
-# cout
+# simpel c++ app 
+  #include <iostream>
+  using namespace std;
+  int main()
+  {
+	cout << "salam ali";
+    // by using namespace we cam remove std for each cout "consol output" 
+	return 0;
+  }
+
+# cout or std::cout
 cout                                                    |                   	std::cout
 1.	A “namespace std” must be written into the program	|  “std::cout” must be used, if “namespace std” was not declared previously
 2.	cout is a predefined object of the ostream class    |	“std::cout” calls the Standard Template/Iostream Library, since “cout” is only defined in the “std” namespace
@@ -6,13 +16,12 @@ cout                                                    |                   	std
  access to many functions such as cin, cout etc.        | This is just an implicit initialization of the std library performed inside the function, i.e alongwith the main computation 
 
 
- # a Simple c++ program 
+# what do we have in a Simple c++ program 
 
  #include <iostream>
+ // useing system op 
  using namespace std;
-
-  a function called main
-
+ // a function called main
   int main() { }
   
   all of my program will be here and computer runs this part
@@ -26,6 +35,13 @@ The using command is used to tell the program which namespace to use.
 To use the cout command, you need to include the &lt;iostream&gt; header and use the std namespace.
 The starting point of C++ programs is the function called main, which includes the code that you want to run.
 The endl command is used to add a new line to the output.
+
+# Comments
+// a line Comments
+**Multi-Line Comments**
+/*  This is just a
+  demo program
+  that outputs a name */
 
 # variable
 

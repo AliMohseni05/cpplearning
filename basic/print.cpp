@@ -10,6 +10,10 @@ int main() {
   // and ; must be in and of every line in compaler
   std::cout << "salam ali" << std::endl;
   // c++ is case senstive languige 
+ /*  This is just a
+  demo program
+  that outputs a name */
+
   return 0;
 
 }
