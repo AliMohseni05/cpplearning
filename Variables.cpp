@@ -13,5 +13,8 @@ int main() {
   x = "c";
   cout << x;
 
+  int x2=8, y=2;
+  // make 2 Variables at same time and they have type
+  cout << x2 + y;
   cout << message;
 }
