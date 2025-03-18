@@ -1,3 +1,4 @@
+# cout
 cout                                                    |                   	std::cout
 1.	A “namespace std” must be written into the program	|  “std::cout” must be used, if “namespace std” was not declared previously
 2.	cout is a predefined object of the ostream class    |	“std::cout” calls the Standard Template/Iostream Library, since “cout” is only defined in the “std” namespace
@@ -39,5 +40,13 @@ string x = "a";
   x = "c";
   cout << x;
 
-  
+# DataTypes
+  - int is used to hold whole numbers (integers) double stores decimals.
+  - string is use for hold whole string in "" marke 
+  - float is similar to double, but has less precision and requires less memory. You need to prefix the value with the letter 'f' to create floats.
+  - char holds a single character.
+  -  bool can have one of the following values: true or false. 
+
+
+# Math
 
